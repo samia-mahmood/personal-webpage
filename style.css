@@ -21,7 +21,7 @@
     color: #bbe7ee;
 }
 
-ul{
+.header_ul{
     float: right;
     list-style-type: none;
     margin-top: 30px;
@@ -30,29 +30,30 @@ ul{
     font-size: 16px;
 }
 
-ul li{
+.header_ul li{
     display: inline-block;
 }
 
-ul li a{
+.header_ul li a{
     text-decoration: none;
     color: #bbe7ee;
     padding: 5px 30px;
     border: 1px solid transparent;
-    transition: 0.5 ease;
+    /*transition: 0.5 ease;*/
+    transition: all 0.5s ease
 }
 
-ul li a:hover{
+.header_ul li a:hover{
     background-color: rgba(0, 0, 139, 0.54); /*When hovering over tabs, there is a blue color*/
 }
 
-ul li.active a{
+.header_ul li.active a{
     background-color: rgba(0, 0, 139, 0.54); /*Whichever tab you are on, the tab is highlighted blue*/
 }
 
 .title_container{
     position: absolute;
-    top: 43/5%;
+    top: 43.5%;
     bottom: 50%;
     left: 10%;
     right: 10%;
@@ -175,12 +176,13 @@ ul li.active a{
 }
 
 .bio_image_container img {
-    position: absolute; /* remove from normal flow so you can place it freely */
-    top: 150px;    /* distance from the top */
-    left: 50px;    /* distance from the left */
-    width: 450px;  /* size of the image */
-    height: auto;
+    position: absolute; 
+    top: 150px;    
+    left: 50px;    
+    width: 450px;
+    height: auto; 
 }
+
 
 .bio_image_description {
     position: absolute;
@@ -189,12 +191,25 @@ ul li.active a{
     right: 10%;
 }
 
+
 .bio_image_description p{
     color: rgb(232, 237, 211);
     font-size: 15px;
     text-align: left;
     max-width: 450px;
     word-wrap: break-word;
+}
+
+.bio_ul {
+    list-style-type: disc;
+    color: rgb(232, 237, 211);
+    font-size: 15px;
+    max-width: 440px;
+    word-wrap: break-word;
+    position: absolute;
+    top: 100%;
+    left: 1.5%;
+    right: 10%;
 }
 
 .bio_subtitle {
@@ -234,7 +249,7 @@ ul li.active a{
     background-color: rgb(23, 1, 41);
     text-align: center;
     position: absolute;
-    top: 90%;
+    top: 89.2%;
 }
 
 /*-------Research Page-------*/
@@ -928,5 +943,5 @@ body.photos_page {
     background-color: rgb(23, 1, 41);
     text-align: center;
     position: absolute;
-    top: 800%;
+    top: 820%;
 }
