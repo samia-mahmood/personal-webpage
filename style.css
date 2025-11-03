@@ -151,7 +151,7 @@
 .bio_main {
     height: 18vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(../astronomy.PNG);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(./astronomy.PNG);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -269,7 +269,7 @@ body.research_page {
 .research_main {
     height: 18vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(../astronomy.PNG);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(./astronomy.PNG);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -480,9 +480,9 @@ body.research_page {
 
 /*-------Presentations Page-------*/
 .presentation_header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../high_energy_physics2.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./high_energy_physics2.jpeg);
     /*height: 380vh;*/
-    height: 210vh;
+    height: 168vh;
     background-size: cover;
     background-position: center;
     min-height: 100px;
@@ -525,7 +525,7 @@ body.research_page {
 .presentation_header2{
     /*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../high_energy_physics2.jpeg);*/
     background-color: rgb(56, 2, 43);
-    height: 270vh;
+    height: 320vh;
     background-size: cover;
     background-position: center;
     min-height: 100px;
@@ -583,7 +583,7 @@ body.research_page {
     background-color: rgb(23, 1, 41);
     text-align: center;
     position: absolute;
-    top: 470%;
+    top: 485%;
 }
 
 /*-------Work Experience Page-------*/
@@ -598,7 +598,7 @@ body.research_page {
 .work_main {
     height: 18vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5)), url(../astronomy.PNG);
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(./astronomy.PNG);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -644,7 +644,7 @@ body.research_page {
 
 /*-------Honors & Awards Page-------*/
 .award_header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../high_energy_physics3.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./high_energy_physics3.jpeg);
     height: 145vh;
     background-size: cover;
     background-position: center;
@@ -691,7 +691,7 @@ body.research_page {
 
 /*-------Skills Page-------*/
 .skills_header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../high_energy_physics6.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./high_energy_physics6.jpeg);
     height: 175vh;
     background-size: cover;
     background-position: center;
@@ -749,7 +749,7 @@ body.research_page {
 /*-------Hobbies Page-------*/
 
 .hobbies_header{
-    background-image: linear-gradient(rgba(0,0,0.5,0.55),rgba(0,0,0.5,0.55),rgba(0,0,0.5,0.55)), url(../astronomy2.PNG);
+    background-image: linear-gradient(rgba(0,0,0.5,0.55),rgba(0,0,0.5,0.55),rgba(0,0,0.5,0.55)), url(./astronomy2.PNG);
     height: 180vh;
     background-size: cover;
     background-position: center;
@@ -824,7 +824,7 @@ body.research_page {
 
 .hobbies_caption_1 {
     position: absolute;
-    top: 90%;
+    top: 92%;
     left: 10%;
     right: 10%;
 }
@@ -842,7 +842,7 @@ body.research_page {
     color: #0dd7ee;
     position: absolute;
     top: 150%;
-    right: 45.5%;
+    right: 45.2%;
     font-size: 35px;
 }
 
@@ -850,14 +850,14 @@ body.research_page {
     color: rgb(232, 237, 211);
     position: absolute;
     top: 220%;
-    right: 38.5%;
+    right: 37.5%;
     font-size: 20px;
 }
 
 /*-------Photos Page-------*/
 
 body.photos_page {
-    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../astronomy3.png);
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(./astronomy3.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
