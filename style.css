@@ -762,17 +762,19 @@ body.research_page {
     color: #bbe7ee;
 }
 
+/*
 .painting_1_container {
-    text-align: center; /* center horizontally */
+    text-align: center; 
 }
 
 .painting_1_container img {
-    position: absolute; /* remove from normal flow so you can place it freely */
-    top: 230px;    /* distance from the top */
-    left: 560px;    /* distance from the left */
-    width: 360px;  /* size of the image */
+    position: absolute; 
+    top: 230px;    
+    left: 560px;    
+    width: 360px;  
     height: auto;
 }
+*/
 
 .painting_2_container {
     text-align: center; /* center horizontally */
@@ -781,7 +783,7 @@ body.research_page {
 .painting_2_container img {
     position: absolute; /* remove from normal flow so you can place it freely */
     top: 230px;    /* distance from the top */
-    left: 160px;    /* distance from the left */
+    left: 355px;    /* distance from the left left: 160px; */
     width: 380px;  /* size of the image */
     height: auto;
 }
@@ -793,7 +795,7 @@ body.research_page {
 .painting_3_container img {
     position: absolute; /* remove from normal flow so you can place it freely */
     top: 230px;    /* distance from the top */
-    left: 940px;    /* distance from the left */
+    left: 750px;    /* distance from the left left: 940px*/
     width: 401px;  /* size of the image */
     height: auto;
 }
@@ -824,7 +826,7 @@ body.research_page {
 
 .hobbies_caption_1 {
     position: absolute;
-    top: 92%;
+    top: 80%;
     left: 10%;
     right: 10%;
 }
