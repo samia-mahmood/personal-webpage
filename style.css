@@ -140,14 +140,14 @@
 /*-------Bio Page-------*/
 
 .bio_header {
+    position: relative; /* make this container a positioning context */
+    height: 100vh;
     background-color: rgb(11, 0, 17);
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
 }
 
-/* Top banner with navigation */
 .bio_main {
     height: 18vh;
     width: 100%;
@@ -158,98 +158,99 @@
     color: #bbe7ee;
 }
 
-/* Page title */
 .bio_title {
-    text-align: center;
-    margin: 10px 0 10px;
+    position: absolute;
+    top: 11%;
+    left: 8%;
+    right: 8%;
 }
 
-.bio_title h1 {
+.bio_title h1{
     color: rgb(232, 237, 211);
     font-size: 32px;
-    margin-top: -60px;
+    text-align: center;
 }
 
-/* Bio Content Layout */
-.bio_content {
-    display: grid;
-    grid-template-columns: 450px 1fr;
-    gap: 60px;
-    padding: 5px 60px 120px; /* ← pulls everything up */
-    align-items: start;
+.bio_image_container {
+    text-align: left; /* center horizontally */
+    margin: 20px 0; /* some spacing above and below */
 }
 
-/* Left column */
-.bio_left {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-/* Image */
 .bio_image_container img {
+    position: absolute; 
+    top: 150px;    
+    left: 50px;    
     width: 450px;
-    height: auto;
-    border-radius: 2px;
+    height: auto; 
 }
 
-/* Name + interests */
-.bio_image_description p {
+
+.bio_image_description {
+    position: absolute;
+    top: 65%;
+    left: 3.5%;
+    right: 10%;
+}
+
+
+.bio_image_description p{
     color: rgb(232, 237, 211);
     font-size: 15px;
-    margin-bottom: 5px;
+    text-align: left;
+    max-width: 450px;
+    word-wrap: break-word;
 }
 
 .bio_ul {
     list-style-type: disc;
-    margin-left: 20px;
     color: rgb(232, 237, 211);
     font-size: 15px;
-    max-width: 450px;
+    max-width: 440px;
+    word-wrap: break-word;
+    position: absolute;
+    top: 100%;
+    left: 1.5%;
+    right: 10%;
 }
 
-/* Right column */
-.bio_right {
-    max-width: 900px;
+.bio_subtitle {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    right: 10%;
 }
 
-/* Education + Biography */
-.bio_subtitle p {
+.bio_subtitle p{
     color: rgb(232, 237, 211);
     font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 25px;
+    text-align: left;
+    max-width: 900px;
+    word-wrap: break-word;
+    margin-bottom: 20px;
 }
 
-/* Footer */
-.scrolling_footer_anchored_bottom_bio {
+/*-----
+.research_interest {
+    list-style-type: disc;
+    margin-left: 40px;
+    padding-left: 10px;
+    color: rgb(232, 237, 211);
+    font-size: 10px;
+    text-align: left;
+}
+
+.research_interest li {
+    margin-bottom: 10px;
+    display: list-item;
+}
+----*/
+
+.scrolling_footer_anchored_bottom_bio { /*If footer at bottom of scrollable page needs to be anchored to the bottom of page*/
     width: 100%;
     background-color: rgb(23, 1, 41);
     text-align: center;
-    padding: 15px 0;
-    margin-top: -40px;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-    .bio_content {
-        grid-template-columns: 1fr;
-        padding: 30px;
-    }
-
-    .bio_image_container img {
-        width: 100%;
-        max-width: 400px;
-    }
-
-    .bio_left,
-    .bio_right {
-        max-width: 100%;
-    }
-
-    .bio_subtitle p {
-        font-size: 18px;
-    }
+    position: absolute;
+    top: 89.2%;
 }
 
 /*-------Research Page-------*/
