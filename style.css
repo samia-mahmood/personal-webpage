@@ -511,10 +511,6 @@ body.pres_page{
     text-align: center;
 }
 
-.presentation_subtitle hr {
-    border-top: 1.5px solid #0dd7ee; /* color and thickness of the line */
-}
-
 .presentation_subtitle p {
     color: rgb(233, 201, 239);
     font-size: 20px;
@@ -556,7 +552,7 @@ body.pres_page{
     background-color: rgb(23, 1, 41);
     text-align: center;
     position: absolute;
-    top: 510%;
+    top: 520%;
 }
 
 /*-------Work Experience Page-------*/
