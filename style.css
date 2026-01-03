@@ -521,13 +521,6 @@ body.pres_page{
     line-height: 1.5;
 }
 
-.presentation_subtitle2 h1 {
-    color: #0dd7ee;
-    margin-bottom: 10px; /* space below heading */
-    text-align: center;
-    margin-top: 30px;
-}
-
 .feature_posts_container {
     text-align: center;
 }
