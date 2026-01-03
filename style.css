@@ -668,7 +668,7 @@ body.award_page {
 /*-------Skills Page-------*/
 .skills_header{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./high_energy_physics6.jpeg);
-    height: 175vh;
+    height: 190vh;
     background-size: cover;
     background-position: center;
     min-height: 100px;
@@ -706,7 +706,7 @@ body.award_page {
 .skills_text h2 {
     color: #0dd7ee;
     margin-bottom: 10px; /* space below heading */
-    margin-top: 30px;    /* space above heading */
+    margin-top: 50px;    /* space above heading */
     font-size: 20px;
 }
 
@@ -720,6 +720,14 @@ body.award_page {
     margin-bottom: 10px;
     display: list-item;
     font-size: 16px;
+}
+
+.scrolling_footer_anchored_bottom_skills { /*If footer at bottom of scrollable page needs to be anchored to the bottom of page*/
+    width: 100%;
+    background-color: rgb(23, 1, 41);
+    text-align: center;
+    position: absolute;
+    top: 190%;
 }
 
 /*-------Hobbies Page-------*/
