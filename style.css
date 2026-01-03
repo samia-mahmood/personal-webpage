@@ -595,7 +595,7 @@ body.pres_page{
     margin-bottom: 20px;
 }
 
-.scrolling_footer_anchored_bottom_work { /*If footer at bottom of scrollable page needs to be anchored to the bottom of page*/
+.scrolling_footer_anchored_bottom_work {
     width: 100%;
     background-color: rgb(23, 1, 41);
     text-align: center;
